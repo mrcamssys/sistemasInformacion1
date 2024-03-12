@@ -1,0 +1,100 @@
+-- phpMyAdmin SQL Dump
+-- version 4.9.0.1
+-- https://www.phpmyadmin.net/
+--
+-- Servidor: sql304.infinityfree.com
+-- Tiempo de generación: 11-03-2024 a las 21:38:58
+-- Versión del servidor: 10.4.17-MariaDB
+-- Versión de PHP: 7.2.22
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Base de datos: `if0_36056203_mauricio`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `CIUDAD`
+--
+
+CREATE TABLE `CIUDAD` (
+  `NOMBRE` varchar(20) NOT NULL,
+  `INDICATIVO` int(11) NOT NULL,
+  `ID` int(11) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `CIUDAD`
+--
+
+INSERT INTO `CIUDAD` (`NOMBRE`, `INDICATIVO`, `ID`) VALUES
+(' Amsterdam', 31, 20),
+('guajira', 1, 1),
+('Barrancabermeja', 2, 2),
+('Cali', 3, 3),
+('Cartagena', 6, 6),
+('Neiva', 7, 7),
+('ibague', 8, 8),
+('Tunja', 9, 9);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `PAIS`
+--
+
+CREATE TABLE `PAIS` (
+  `NOMBRE` varchar(10) NOT NULL,
+  `INDICATIVO` int(11) NOT NULL,
+  `ID` int(11) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `PAIS`
+--
+
+INSERT INTO `PAIS` (`NOMBRE`, `INDICATIVO`, `ID`) VALUES
+('Colombia', 57, 1),
+('Canada', 59, 3),
+('Camboya', 60, 4),
+('Grecia', 61, 5),
+('España', 62, 6),
+('Ucrania', 63, 7),
+('paraguay', 64, 8),
+('Brasil', 65, 9);
+
+--
+-- Índices para tablas volcadas
+--
+
+--
+-- Indices de la tabla `PAIS`
+--
+ALTER TABLE `PAIS`
+  ADD PRIMARY KEY (`ID`);
+
+--
+-- AUTO_INCREMENT de las tablas volcadas
+--
+
+--
+-- AUTO_INCREMENT de la tabla `PAIS`
+--
+ALTER TABLE `PAIS`
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
