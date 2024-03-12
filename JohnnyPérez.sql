@@ -17,8 +17,8 @@ START TRANSACTION;
 -- Estructura de tabla para la tabla `avatar`
 --
 
-CREATE TABLE `avatar` (
-  `id_avatar` int(11) NOT NULL,
+CREATE TABLE `la leyenda de po` (
+  `id_la leyenda de po` int(11) NOT NULL,
   `figura` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
