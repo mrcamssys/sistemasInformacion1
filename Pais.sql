@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 -- Estructura de tabla para la tabla `Pais`
 --
 
-CREATE TABLE `Pais` (
+CREATE TABLE `Lugar` (
   `Nombre` varchar(20) NOT NULL,
   `indicativo` varchar(20) NOT NULL,
   `Id` int(20) NOT NULL
@@ -38,7 +38,7 @@ CREATE TABLE `Pais` (
 -- Volcado de datos para la tabla `Pais`
 --
 
-INSERT INTO `Pais` (`Nombre`, `indicativo`, `Id`) VALUES
+INSERT INTO `Lugar` (`Nombre`, `indicativo`, `Id`) VALUES
 ('Colombia', '007', 1),
 ('Holanda', '020', 3),
 ('Brasil', '012', 2),
@@ -57,7 +57,7 @@ INSERT INTO `Pais` (`Nombre`, `indicativo`, `Id`) VALUES
 --
 -- Indices de la tabla `Pais`
 --
-ALTER TABLE `Pais`
+ALTER TABLE `Lugar`
   ADD PRIMARY KEY (`Id`);
 
 --
@@ -67,7 +67,7 @@ ALTER TABLE `Pais`
 --
 -- AUTO_INCREMENT de la tabla `Pais`
 --
-ALTER TABLE `Pais`
+ALTER TABLE `Lugar`
   MODIFY `Id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 COMMIT;
 
