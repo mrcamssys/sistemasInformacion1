@@ -12,7 +12,7 @@
 -- Estructura de tabla para la tabla `avatar`
 --
 
-CREATE TABLE `la leyenda de po` (
+CREATE TABLE `la leyenda de jhonny` (
   `id_la leyenda de po` int(11) NOT NULL,
   `figura` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
