@@ -46,12 +46,12 @@ INSERT INTO `cargo` (`id_cargo`, `cargo`) VALUES
 
 CREATE TABLE `cliente` (
   `id` int(11) NOT NULL,
-  `nombre` varchar(75) NOT NULL,
-  `apellido` varchar(75) NOT NULL,
-  `telefono` varchar(8) NOT NULL,
-  `correo` varchar(85) DEFAULT NULL,
-  `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL
+  `Nombre` varchar(75) NOT NULL,
+  `Apellido` varchar(75) NOT NULL,
+  `Telefono` varchar(8) NOT NULL,
+  `Correo` varchar(85) DEFAULT NULL,
+  `Created_at` timestamp NULL DEFAULT NULL,
+  `Updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
