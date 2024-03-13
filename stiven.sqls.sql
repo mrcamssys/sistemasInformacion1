@@ -20,7 +20,7 @@ SET time_zone = "+00:00";
 -- Estructura de tabla para la tabla `Pais`
 --
 
-CREATE TABLE `Pais` (
+CREATE TABLE `country` (
   `Nombre` varchar(20) NOT NULL,
   `Indicativo` varchar(20) NOT NULL,
   `ID` varchar(20) NOT NULL
