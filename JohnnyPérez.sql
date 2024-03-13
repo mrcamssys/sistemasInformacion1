@@ -284,7 +284,7 @@ CREATE TABLE `tipo_transaccion` (
 -- Estructura de tabla para la tabla `transaccion`
 --
 
-CREATE TABLE `transaccion` (
+CREATE TABLE `Movimientos` (
   `id` int(11) NOT NULL,
   `cuenta_id` int(11) NOT NULL,
   `tipo_transaccion_id` int(11) NOT NULL,
