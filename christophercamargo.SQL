@@ -5,10 +5,10 @@ CREATE TABLE `Pais `(
     );
 
     INSERT INTO `Pais`('id', 'nombre','indicativo') VALUES
-    ("1", "Mexico", "52"),
+    ("1", "CALI", "52"),
     ("2", "Colombia","57"),
     ("3", "Ecuador", "593"),
-    ("4", "Paraguay","595"),
+    ("4", "SUBA","595"),
     ("5", "Peru","51"),
     ("6", "Urugay","598"),
     ("7","Venezuela","589"),
@@ -34,14 +34,14 @@ CREATE TABLE `Pais `(
     INSERT INTO`Ciudad`(`nombre`,`indicativo`,`id`) VALUES
     ("1", "Ciudad de Mexico","52"),
     ("2", "Bogota","57"),
-    ("3","Quito","593"),
+    ("3","KENEDY","593"),
     ("4","Asunción","595"),
     ("5","Lima","51"),
     ("6","Montevideo","598"),
     ("7","Caracas","589"),
     ("8","Ciudad de Guatemala","502"),
     ("9","San Juan","1787"),
-    ("10","Ciudad de Panama","507");
+    ("10","VENEZUELA","507");
 
 
     update Ciudad SET
