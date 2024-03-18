@@ -64,9 +64,14 @@
         </div>
     </nav>
     <!--Fin del menu  -->
-    <br><br>
-    <div class="container">
 
+
+    <br><br>
+    
+    <div class="container">
+    <h2>Coloque aqui su nombre completo</h2>
+    <h3>Coloque aqui su documento</h3>
+    <hr />
         <div class="row">
 
             <div class="col-sm-3">
@@ -129,7 +134,7 @@
                 <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
                 <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Creadores</a></li>
             </ul>
-            <p class="text-center text-muted">piloto sistema de gestion academica sistemas de informacion 2 © 2022 Company, Inc</p>
+            <p class="text-center text-muted">piloto sistema de gestion academica sistemas de informacion 1 © 2024 Company, Inc</p>
         </footer>
     </div>
 
